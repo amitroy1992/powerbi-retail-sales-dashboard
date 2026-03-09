@@ -6,6 +6,12 @@ The dashboard helps analyze sales performance across countries, products, segmen
 
 It provides key insights into revenue, profit margins, and product performance to support data-driven business decisions.
 
+
+🖼 Dashboard Preview
+
+![Dashboard Preview](dashboard-preview.png)
+
+
 📈 Key Metrics
 
 The dashboard tracks the following important business metrics:

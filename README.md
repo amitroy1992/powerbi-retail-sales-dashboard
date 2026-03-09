@@ -1,24 +1,16 @@
 📊 Retail Sales Performance Dashboard (Power BI)
 📌 Project Overview
 
-This project presents a Retail Sales Performance Dashboard built using Microsoft Power BI.
-The dashboard helps analyze sales performance across countries, products, segments, and time periods.
+This project presents a Retail Sales Performance Dashboard built using Microsoft Power BI to analyze business performance across products, regions, and customer segments.
 
-It provides key insights into revenue, profit margins, and product performance to support data-driven business decisions.
-
+The dashboard provides interactive visualizations to help stakeholders understand revenue trends, product performance, and segment distribution, enabling data-driven decision making.
 
 🖼 Dashboard Preview
+<p align="center"> <img src="dashboard-preview.png" width="900"> </p>
 
-## Dashboard Preview
+📊 Key Metrics
 
-<p align="center">
-<img src="dashboard-preview.png" width="900">
-</p>
-
-
-📈 Key Metrics
-
-The dashboard tracks the following important business metrics:
+The dashboard tracks the following important business KPIs:
 
 Total Sales
 
@@ -28,21 +20,18 @@ Overall Profit Margin
 
 Total Units Sold
 
-These KPIs help evaluate the overall performance of the retail business.
+These metrics help measure the overall performance of the business.
 
-📊 Dashboard Features
+📈 Dashboard Features
 
 The dashboard includes the following visualizations:
 
-Sales by Country – Identifies top performing regions
+• Sales by Country – Identifies high performing regions
+• Top 5 Products by Sales – Highlights best selling products
+• Monthly Sales Trend – Shows sales growth over time
+• Sales by Segment – Analyzes sales distribution across customer segments
 
-Top 5 Products by Sales – Highlights best selling products
-
-Monthly Sales Trend – Shows sales growth over time
-
-Sales by Segment – Analyzes sales distribution across customer segments
-
-Interactive filters (slicers) allow users to analyze data by:
+Interactive slicers allow users to filter data by:
 
 Country
 
@@ -50,21 +39,50 @@ Segment
 
 Year
 
+📊 Key Insights
+
+• The United States contributes the highest share of total sales.
+• The top 5 products generate a large portion of total revenue.
+• Sales show an upward trend during the last quarter of the year.
+• The Consumer segment contributes the largest share of total sales.
+
+📂 Dataset
+
+The dataset used in this project is the Microsoft Financial Sample dataset, commonly used for Power BI practice.
+
+It contains information related to:
+
+Sales
+
+Profit
+
+Products
+
+Customer segments
+
+Geographic regions
+
+💡 Business Problem
+
+Retail companies often struggle to understand which products, regions, and customer segments generate the most revenue.
+
+Without clear analytical insights, decision-makers cannot easily identify sales trends or high performing products.
+
+This dashboard helps stakeholders quickly analyze business performance and make data-driven strategic decisions.
 
 🧮 DAX Measures Used
-
-Some key DAX measures used in the dashboard:
-
 Total Sales = SUM(financials[Sales])
 
 Total Profit = SUM(financials[Profit])
 
-Profit Margin = 
+Overall Profit Margin =
 DIVIDE(
     SUM(financials[Profit]),
     SUM(financials[Sales])
 )
 
+Total Units Sold =
+SUM(financials[Units Sold])
 
 🛠 Tools & Technologies
 
@@ -74,15 +92,9 @@ DAX (Data Analysis Expressions)
 
 Data Visualization
 
-Data Modeling
+Interactive Dashboards
 
-
-## 📂 Project Files
-
-- [retail-sales-dashboard.pbix](retail-sales-dashboard.pbix)
-- [dashboard-preview.png](dashboard-preview.png)
-- [README.md](README.md)
-
+Business Analytics
 
 🎯 Skills Demonstrated
 
@@ -98,6 +110,21 @@ DAX Calculations
 
 Interactive Reporting
 
+Data Storytelling
+
+🚀 Future Improvements
+
+• Customer segmentation analysis
+• Profit trend forecasting
+• Advanced DAX calculations
+• Integration with SQL database
+• Predictive analytics using Python
+
+📂 Project Files
+
+- [Power BI Dashboard](retail-sales-dashboard.pbix)
+- [Dashboard Preview Image](dashboard-preview.png)
+- [Project Documentation](README.md)
 
 👤 Author
 

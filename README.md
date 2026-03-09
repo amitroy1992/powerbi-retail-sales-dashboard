@@ -9,7 +9,11 @@ It provides key insights into revenue, profit margins, and product performance t
 
 🖼 Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png)
+## Dashboard Preview
+
+<p align="center">
+<img src="dashboard-preview.png" width="900">
+</p>
 
 
 📈 Key Metrics

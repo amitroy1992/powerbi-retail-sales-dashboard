@@ -77,10 +77,11 @@ Data Visualization
 Data Modeling
 
 
-📂 Project Files
-retail-sales-dashboard.pbix
-dashboard-preview.png
-README.md
+## 📂 Project Files
+
+- [retail-sales-dashboard.pbix](retail-sales-dashboard.pbix)
+- [dashboard-preview.png](dashboard-preview.png)
+- [README.md](README.md)
 
 
 🎯 Skills Demonstrated
